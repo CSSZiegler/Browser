@@ -2609,7 +2609,7 @@
                 <htmlcontent></htmlcontent>
                 <methodID>get</methodID>
                 <type>4</type>
-                <url>http://www.kony.com</url>
+                <url>http://www.kony.com/</url>
             </browseData>
             <tooltip></tooltip>
             <detection>true</detection>

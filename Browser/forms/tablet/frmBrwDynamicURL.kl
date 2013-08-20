@@ -2605,12 +2605,6 @@
                 <height>false</height>
             </overridePerferred>
             <contentAlign>4</contentAlign>
-            <browseData>
-                <htmlcontent></htmlcontent>
-                <methodID>get</methodID>
-                <type>4</type>
-                <url>http://www.kony.com</url>
-            </browseData>
             <tooltip></tooltip>
             <detection>true</detection>
             <enable_zoom>false</enable_zoom>

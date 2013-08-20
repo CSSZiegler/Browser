@@ -20,6 +20,7 @@ function navigateToFrmFeatures(){
 	frmFeatures.show();
 }
 
+
 /***************************************************************************************************************
 *	Name    : navigateToFrmBrwDynamicURL
 *	Author  : Kony
@@ -28,32 +29,31 @@ function navigateToFrmFeatures(){
 
 function navigateToFrmBrwDynamicURL(eventObj){
 	switch(eventObj.text){
-	case "Dynamic URL content":
-		frmBrwDynamicURL.title= "Dynamic URL content";
-		//set specific url here - frmBrwDynamicURL.brwDynamicURL.url = 'http://google.com';
+	case "Browser with Dynamic Content":
+			frmBrwDynamicURL.destroy();
+			frmBrwDynamicURL.title= "Dynamic Content";
+		  	frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = false;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = false;
-			frmBrwDynamicURL.brwDynamicURL.reload();
+			
 		break;
 	case "Detect Telephone Number":
-		frmBrwDynamicURL.title= "Detect Telephone Number";
-		//set specific url here - frmBrwDynamicURL.brwDynamicURL.url = 'http://google.com';
+			frmBrwDynamicURL.destroy();
+			frmBrwDynamicURL.title= "Detect Telephone Number";
+			frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/contact',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = true;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = false;
-			frmBrwDynamicURL.brwDynamicURL.reload();
+			
 		break;
-	case "Enable zoom":
-		frmBrwDynamicURL.title= "Enable zoom";
+	case "Enable Zoom Property of Browser":
+			frmBrwDynamicURL.destroy();
+			frmBrwDynamicURL.title= "Zoom Enabled";
+			frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/apps',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = false;
-			//set specific url here - frmBrwDynamicURL.brwDynamicURL.url = 'http://google.com';
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = true;
-			frmBrwDynamicURL.brwDynamicURL.reload();
+			
 		break;
-	case "Screen level widget"://Remove this case
-		frmBrwDynamicURL.title= "Screen level widget";
-		frmBrwDynamicURL.brwDynamicURL.screenLevelWidget= true;
-		break;
-	default:
+		default:
 		break;
 	}
 	frmBrwDynamicURL.show();
