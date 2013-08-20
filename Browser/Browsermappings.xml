@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="Browser" id="Browser">
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmBrwDynamicURL" displayname="Form"/>
+    <container type="form" id="frmBrwStaticHTML" displayname="Form"/>
+    <container type="form" id="frmFeatures" displayname="Form"/>
+    <container type="form" id="frmInLineBrowser" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmBrwDynamicURL" displayname="Form"/>
+    <container type="form" id="frmBrwStaticHTML" displayname="Form"/>
+    <container type="form" id="frmFeatures" displayname="Form"/>
+    <container type="form" id="frmInLineBrowser" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmBrwStaticHTML" displayname="Form"/>
+    <container type="form" id="frmAppDescription" displayname="Form"/>
+    <container type="form" id="frmBrwStaticHTML" displayname="Form"/>
+    <globalsequences/>
+    <skins/>
+</application>
