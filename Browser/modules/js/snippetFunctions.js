@@ -31,7 +31,7 @@ function navigateToFrmBrwDynamicURL(eventObj){
 	switch(eventObj.text){
 	case "Browser with Dynamic Content":
 			frmBrwDynamicURL.destroy();
-			frmBrwDynamicURL.title= "Dynamic Content";
+			frmBrwDynamicURL.title= "Dynamic ";
 		  	frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = false;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = false;
