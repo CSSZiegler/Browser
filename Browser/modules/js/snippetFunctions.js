@@ -65,7 +65,10 @@ function navigateToFrmBrwDynamicURL(eventObj){
 *	Purpose : Navigate to frmInLineBrowser
 ****************************************************************************************/
 
-function navigateToFrmInLineBrowser(){
+function navigateToFrmInLineBrowser()
+{
+
+	frmInLineBrowser.brwInline.requestURLConfig={URL:'http://www.google.co.in/',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 	frmInLineBrowser.show();
 }
 
@@ -116,6 +119,7 @@ function onFailureCallback(){
 function goBack(){
 	if(frmInLineBrowser.brwInline.canGoBack()==true)
 		frmInLineBrowser.brwInline.goBack();
+		
 }
 
 /****************************************************************************************
