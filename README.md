@@ -8,11 +8,14 @@ This sample app will showcase browser widget usage.
 This Application will showcase the features of Browser widget.
 
 # Supported platforms:
-* iPhone
-* iPad
-* Android
-* Android tablet
-* SPA iPhone
-* SPA iPad
-* SPA Android
-* SPA Android tablet
+**Mobile**
+ * Android
+ * iPhone
+ * SPA Android
+ * SPA iPhone
+ 
+**Tablet** 
+ * Anroid
+ * iPad
+ * SPA iPad
+ * SPA Android
