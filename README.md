@@ -15,7 +15,7 @@ This Application will showcase the features of Browser widget.
  * SPA iPhone
  
 **Tablet** 
- * Anroid
+ * Android
  * iPad
  * SPA iPad
  * SPA Android
