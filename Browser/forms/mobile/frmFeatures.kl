@@ -48,8 +48,8 @@
         <widgetID>p2kwiet118010578959743</widgetID>
         <createdGAVersion>5.0.0</createdGAVersion>
         <location>
-            <x>5</x>
-            <y>69</y>
+            <x>10</x>
+            <y>9</y>
         </location>
         <size>
             <width>450</width>
@@ -122,7 +122,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
-            <rc_blackberry10>true</rc_blackberry10>
+            <rc_blackberry10>false</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>false</rc_j2me>
@@ -1375,7 +1375,7 @@
             <direction>0</direction>
             <usePercent>true</usePercent>
             <orientation>constants.BOX_LAYOUT_HORIZONTAL</orientation>
-            <position>0</position>
+            <position>1</position>
             <widgetLayoutDirection>BOX_LAYOUT_ALIGN_FROM_LEFT</widgetLayoutDirection>
             <overridePerferred>
                 <width>true</width>
@@ -2037,6 +2037,7 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -2725,6 +2726,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -3432,6 +3434,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -3457,6 +3476,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -4197,6 +4217,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -4280,22 +4301,22 @@
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>false</rc_j2me>
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>true</rc_winmobile>
+                <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
@@ -4316,7 +4337,7 @@
                 <tc_xhtml_js>false</tc_xhtml_js>
                 <wrapper_android>true</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
                 <wrapper_iphone>true</wrapper_iphone>
             </rendererData>
@@ -4950,6 +4971,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -5033,22 +5055,22 @@
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>false</rc_j2me>
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>true</rc_winmobile>
+                <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
@@ -5069,7 +5091,7 @@
                 <tc_xhtml_js>false</tc_xhtml_js>
                 <wrapper_android>true</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
                 <wrapper_iphone>true</wrapper_iphone>
             </rendererData>
@@ -5657,6 +5679,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -5682,6 +5721,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>

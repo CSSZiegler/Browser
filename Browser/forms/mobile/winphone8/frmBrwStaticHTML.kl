@@ -24,7 +24,7 @@
     </overridePerferred>
     <projectName>Browser</projectName>
     <formName>frmBrwStaticHTML</formName>
-    <platform>0</platform>
+    <platform>42</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
     <toList>frmBroeserOptions</toList>
@@ -129,9 +129,9 @@
             <rc_palm>false</rc_palm>
             <rc_symbian>false</rc_symbian>
             <rc_windows8>true</rc_windows8>
-            <rc_winmobile>false</rc_winmobile>
+            <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>false</rc_winmobile6x>
-            <rc_winphone8>false</rc_winphone8>
+            <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
             <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
@@ -2056,7 +2056,7 @@
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <winphone8_contentalign>middle-center</winphone8_contentalign>
                 <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <general_contextMenu>None</general_contextMenu>
@@ -2066,7 +2066,7 @@
                     <seqname></seqname>
                 </evtSequence>
             </desktopweb_onRightClick>
-            <winphone8_position>0</winphone8_position>
+            <winphone8_position>1</winphone8_position>
         </children>
         <children xsi:type="kBrowser">
             <ID>brwStaticHTML</ID>

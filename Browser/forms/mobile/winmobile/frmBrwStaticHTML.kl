@@ -24,7 +24,7 @@
     </overridePerferred>
     <projectName>Browser</projectName>
     <formName>frmBrwStaticHTML</formName>
-    <platform>0</platform>
+    <platform>3</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
     <toList>frmBroeserOptions</toList>
@@ -129,9 +129,9 @@
             <rc_palm>false</rc_palm>
             <rc_symbian>false</rc_symbian>
             <rc_windows8>true</rc_windows8>
-            <rc_winmobile>false</rc_winmobile>
+            <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>false</rc_winmobile6x>
-            <rc_winphone8>false</rc_winphone8>
+            <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
             <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
@@ -1392,7 +1392,7 @@
             <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
-            <wm_position>0</wm_position>
+            <wm_position>1</wm_position>
             <wm_derive_height>false</wm_derive_height>
             <wm6x_position>0</wm6x_position>
             <gridviewConfig>
@@ -2044,7 +2044,7 @@
                 <j2me_longtext>false</j2me_longtext>
                 <j2me_content_align>0</j2me_content_align>
                 <android_content_align>0</android_content_align>
-                <winMobileContentAlign>middle-left</winMobileContentAlign>
+                <winMobileContentAlign>middle-center</winMobileContentAlign>
                 <symbianWrapping>0</symbianWrapping>
                 <symbianContentAlign>0</symbianContentAlign>
                 <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -2686,7 +2686,7 @@
                 <htmlcontent>&lt;html&gt; 
 
 &lt;body&gt;
-&lt;div style="background-color:white"&gt;
+&lt;div style="background-color:white&gt;
 &lt;h3 style="text-align:left"&gt;
 This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.
 

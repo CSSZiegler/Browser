@@ -121,7 +121,7 @@
             <mixed_iphone>false</mixed_iphone>
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
-            <rc_blackberry>false</rc_blackberry>
+            <rc_blackberry>true</rc_blackberry>
             <rc_blackberry10>false</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
@@ -129,30 +129,30 @@
             <rc_palm>false</rc_palm>
             <rc_symbian>false</rc_symbian>
             <rc_windows8>true</rc_windows8>
-            <rc_winmobile>false</rc_winmobile>
+            <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>false</rc_winmobile6x>
-            <rc_winphone8>false</rc_winphone8>
+            <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
             <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
-            <tc_spabb>false</tc_spabb>
-            <tc_spabb_nth>false</tc_spabb_nth>
+            <tc_spabb>true</tc_spabb>
+            <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
-            <tc_spawindows>false</tc_spawindows>
-            <tc_spawinphone8>false</tc_spawinphone8>
-            <tc_xhtml>false</tc_xhtml>
+            <tc_spawindows>true</tc_spawindows>
+            <tc_spawinphone8>true</tc_spawinphone8>
+            <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
             <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
             <tc_xhtml_advnth>true</tc_xhtml_advnth>
-            <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
-            <tc_xhtml_js>false</tc_xhtml_js>
-            <wrapper_android>false</wrapper_android>
+            <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
+            <tc_xhtml_js>true</tc_xhtml_js>
+            <wrapper_android>true</wrapper_android>
             <wrapper_android_tab>true</wrapper_android_tab>
             <wrapper_bb>false</wrapper_bb>
             <wrapper_ipad>true</wrapper_ipad>
-            <wrapper_iphone>false</wrapper_iphone>
+            <wrapper_iphone>true</wrapper_iphone>
         </rendererData1>
         <paddings>
             <android>
@@ -2723,6 +2723,7 @@
                 <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                 <ipad_glossy_effect>0</ipad_glossy_effect>
                 <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <onDownloadComplete_root>
                     <evtSequence>
@@ -3412,6 +3413,7 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -4724,6 +4726,7 @@
                 <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                 <ipad_glossy_effect>0</ipad_glossy_effect>
                 <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <onDownloadComplete_root>
                     <evtSequence>
@@ -5413,6 +5416,7 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -6109,6 +6113,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -6207,9 +6212,9 @@
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>false</rc_winphone8>
+                <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -7439,6 +7444,7 @@
                 <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                 <ipad_glossy_effect>0</ipad_glossy_effect>
                 <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <onDownloadComplete_root>
                     <evtSequence>
@@ -7538,23 +7544,23 @@
                 <rendererData>
                     <desktop_kiosk_channel>true</desktop_kiosk_channel>
                     <desktop_web_channel>true</desktop_web_channel>
-                    <mixed_android>true</mixed_android>
+                    <mixed_android>false</mixed_android>
                     <mixed_android_tab>true</mixed_android_tab>
-                    <mixed_bb>true</mixed_bb>
+                    <mixed_bb>false</mixed_bb>
                     <mixed_ipad>true</mixed_ipad>
-                    <mixed_iphone>true</mixed_iphone>
+                    <mixed_iphone>false</mixed_iphone>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
-                    <rc_blackberry10>true</rc_blackberry10>
+                    <rc_blackberry10>false</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
-                    <rc_j2me>true</rc_j2me>
-                    <rc_palm>true</rc_palm>
-                    <rc_symbian>true</rc_symbian>
+                    <rc_j2me>false</rc_j2me>
+                    <rc_palm>false</rc_palm>
+                    <rc_symbian>false</rc_symbian>
                     <rc_windows8>true</rc_windows8>
                     <rc_winmobile>true</rc_winmobile>
-                    <rc_winmobile6x>true</rc_winmobile6x>
+                    <rc_winmobile6x>false</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
                     <tabspa_windows>true</tabspa_windows>
@@ -7574,7 +7580,7 @@
                     <tc_xhtml_js>true</tc_xhtml_js>
                     <wrapper_android>true</wrapper_android>
                     <wrapper_android_tab>true</wrapper_android_tab>
-                    <wrapper_bb>true</wrapper_bb>
+                    <wrapper_bb>false</wrapper_bb>
                     <wrapper_ipad>true</wrapper_ipad>
                     <wrapper_iphone>true</wrapper_iphone>
                 </rendererData>
@@ -8128,6 +8134,7 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -8208,9 +8215,9 @@
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>false</rc_winphone8>
+                <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -9440,6 +9447,7 @@
                 <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                 <ipad_glossy_effect>0</ipad_glossy_effect>
                 <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <onDownloadComplete_root>
                     <evtSequence>
@@ -9539,23 +9547,23 @@
                 <rendererData>
                     <desktop_kiosk_channel>true</desktop_kiosk_channel>
                     <desktop_web_channel>true</desktop_web_channel>
-                    <mixed_android>true</mixed_android>
+                    <mixed_android>false</mixed_android>
                     <mixed_android_tab>true</mixed_android_tab>
-                    <mixed_bb>true</mixed_bb>
+                    <mixed_bb>false</mixed_bb>
                     <mixed_ipad>true</mixed_ipad>
-                    <mixed_iphone>true</mixed_iphone>
+                    <mixed_iphone>false</mixed_iphone>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
-                    <rc_blackberry10>true</rc_blackberry10>
+                    <rc_blackberry10>false</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
-                    <rc_j2me>true</rc_j2me>
-                    <rc_palm>true</rc_palm>
-                    <rc_symbian>true</rc_symbian>
+                    <rc_j2me>false</rc_j2me>
+                    <rc_palm>false</rc_palm>
+                    <rc_symbian>false</rc_symbian>
                     <rc_windows8>true</rc_windows8>
                     <rc_winmobile>true</rc_winmobile>
-                    <rc_winmobile6x>true</rc_winmobile6x>
+                    <rc_winmobile6x>false</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
                     <tabspa_windows>true</tabspa_windows>
@@ -9575,7 +9583,7 @@
                     <tc_xhtml_js>true</tc_xhtml_js>
                     <wrapper_android>true</wrapper_android>
                     <wrapper_android_tab>true</wrapper_android_tab>
-                    <wrapper_bb>true</wrapper_bb>
+                    <wrapper_bb>false</wrapper_bb>
                     <wrapper_ipad>true</wrapper_ipad>
                     <wrapper_iphone>true</wrapper_iphone>
                 </rendererData>
@@ -10129,6 +10137,7 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -10208,9 +10217,9 @@
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
                 <rc_windows8>true</rc_windows8>
-                <rc_winmobile>false</rc_winmobile>
+                <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>false</rc_winphone8>
+                <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -10783,6 +10792,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>

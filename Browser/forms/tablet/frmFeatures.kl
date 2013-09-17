@@ -2037,6 +2037,7 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -2725,6 +2726,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -3478,6 +3480,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -4154,10 +4157,18 @@
                                 <key>js</key>
                                 <value>navigateToFrmInLineBrowser</value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>None</value>
+                            </entry>
                         </functionNameMap>
                         <paramDataMap>
                             <entry>
                                 <key>js</key>
+                                <value/>
+                            </entry>
+                            <entry>
+                                <key>lua</key>
                                 <value/>
                             </entry>
                         </paramDataMap>
@@ -4185,6 +4196,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -4917,6 +4929,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>
@@ -5649,6 +5662,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>pressedSkin</android_pressed_skin>

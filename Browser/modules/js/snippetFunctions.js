@@ -68,9 +68,9 @@ function navigateToFrmBrwDynamicURL(eventObj){
 function navigateToFrmInLineBrowser()
 {
 
-	frmInLineBrowser.brwInline.requestURLConfig={URL:'http://www.google.co.in/',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 	frmInLineBrowser.show();
 }
+
 
 /****************************************************************************************
 *	Name    : onSuccessCallback
