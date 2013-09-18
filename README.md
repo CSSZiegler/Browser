@@ -11,8 +11,8 @@ This Application will showcase the features of Browser widget.
 **Mobile**
  * Android
  * iPhone
- * Windows 8
  * Windows 7.5
+ * Windows 8 
  * SPA Android
  * SPA iPhone
  
