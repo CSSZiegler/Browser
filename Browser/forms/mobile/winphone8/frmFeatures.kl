@@ -24,7 +24,7 @@
     </overridePerferred>
     <projectName>Browser</projectName>
     <formName>frmFeatures</formName>
-    <platform>0</platform>
+    <platform>42</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
     <toList></toList>
@@ -131,7 +131,7 @@
             <rc_windows8>true</rc_windows8>
             <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>false</rc_winmobile6x>
-            <rc_winphone8>false</rc_winphone8>
+            <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
             <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
@@ -1917,13 +1917,13 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
+                        <left>5</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>1</left>
                         <right>1</right>
@@ -2066,7 +2066,7 @@
                     <seqname></seqname>
                 </evtSequence>
             </desktopweb_onRightClick>
-            <winphone8_position>0</winphone8_position>
+            <winphone8_position>1</winphone8_position>
         </children>
         <children xsi:type="kButton">
             <ID>btnStaticHTML</ID>
@@ -5779,7 +5779,7 @@
         <winphone8_outtransitionmode>Default</winphone8_outtransitionmode>
         <winphone8_intransitionspeed>0</winphone8_intransitionspeed>
         <winphone8_outtransitionspeed>0</winphone8_outtransitionspeed>
-        <winphone8_orientation>2</winphone8_orientation>
+        <winphone8_orientation>0</winphone8_orientation>
         <winphone8_onorientation_root>
             <evtSequence>
                 <enabled>true</enabled>

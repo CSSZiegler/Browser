@@ -2,7 +2,7 @@
 <kPage>
     <ID></ID>
     <layoutType>0</layoutType>
-    <widgetID>p2kwiet1179897252592</widgetID>
+    <widgetID>p2kwiet118010578959718</widgetID>
     <createdGAVersion>5.0.0</createdGAVersion>
     <marginUnitUpdated>true</marginUnitUpdated>
     <location>
@@ -23,16 +23,16 @@
         <height>false</height>
     </overridePerferred>
     <projectName>Browser</projectName>
-    <formName>frmBrwStaticHTML</formName>
+    <formName>frmBrwDynamicURL</formName>
     <platform>42</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
-    <toList>frmBroeserOptions</toList>
+    <toList>frmBroeserOptions,frmBrowserOptions,frmHome</toList>
     <fromList></fromList>
     <headersrcList></headersrcList>
     <footersrcList></footersrcList>
     <children xsi:type="kForm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <ID>frmBrwStaticHTML</ID>
+        <ID>frmBrwDynamicURL</ID>
         <gridMetaData>
             <colSpan>1</colSpan>
             <column>0</column>
@@ -45,7 +45,7 @@
             <verticalFill>1</verticalFill>
         </gridMetaData>
         <layoutType>0</layoutType>
-        <widgetID>p2kwiet1179897252593</widgetID>
+        <widgetID>p2kwiet118010578959719</widgetID>
         <createdGAVersion>5.0.0</createdGAVersion>
         <location>
             <x>5</x>
@@ -53,7 +53,7 @@
         </location>
         <size>
             <width>450</width>
-            <height>486</height>
+            <height>450</height>
         </size>
         <sizePercent>
             <width>100</width>
@@ -179,7 +179,7 @@
             </bb10>
             <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
-            <default_override>false</default_override>
+            <default_override>true</default_override>
             <defaults>
                 <left>0</left>
                 <right>0</right>
@@ -320,10 +320,10 @@
                 <left>0</left>
                 <right>0</right>
                 <top>0</top>
-                <bottom>2</bottom>
+                <bottom>0</bottom>
                 <unit>%</unit>
             </winphone8>
-            <winphone8_override>true</winphone8_override>
+            <winphone8_override>false</winphone8_override>
             <xhtmlAdvBB>
                 <left>0</left>
                 <right>0</right>
@@ -427,7 +427,7 @@
         <dialog_width>80</dialog_width>
         <headerId>None</headerId>
         <footerId>None</footerId>
-        <title>Static HTML</title>
+        <title>Dynamic URL</title>
         <init>
             <evtSequence>
                 <enabled>true</enabled>
@@ -445,7 +445,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>treeView</display_orientation>
+        <display_orientation>portrait</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -764,7 +764,7 @@
         <desktopweb_draggable>false</desktopweb_draggable>
         <desktopweb_minonlostfocus>false</desktopweb_minonlostfocus>
         <children xsi:type="khBox">
-            <ID>hbxBrowser</ID>
+            <ID>hbxDynamicURL</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -777,7 +777,7 @@
                 <verticalFill>1</verticalFill>
             </gridMetaData>
             <layoutType>0</layoutType>
-            <widgetID>p2kwiet11798972521824</widgetID>
+            <widgetID>p2kwiet11780204197358</widgetID>
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
@@ -785,11 +785,11 @@
             </location>
             <size>
                 <width>448</width>
-                <height>32</height>
+                <height>50</height>
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>7</height>
+                <height>11</height>
             </sizePercent>
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -1414,7 +1414,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kLabel">
-                <ID>lblBrowser</ID>
+                <ID>lblDynamicURL</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -1426,7 +1426,7 @@
                     <verticalAlignment>0</verticalAlignment>
                     <verticalFill>1</verticalFill>
                 </gridMetaData>
-                <widgetID>p2kwiet11798972521825</widgetID>
+                <widgetID>p2kwiet11780204197359</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
                     <x>1</x>
@@ -1434,7 +1434,7 @@
                 </location>
                 <size>
                     <width>446</width>
-                    <height>30</height>
+                    <height>48</height>
                 </size>
                 <sizePercent>
                     <width>100</width>
@@ -1447,15 +1447,15 @@
                 <rendererData>
                     <desktop_kiosk_channel>true</desktop_kiosk_channel>
                     <desktop_web_channel>true</desktop_web_channel>
-                    <mixed_android>false</mixed_android>
+                    <mixed_android>true</mixed_android>
                     <mixed_android_tab>true</mixed_android_tab>
-                    <mixed_bb>false</mixed_bb>
+                    <mixed_bb>true</mixed_bb>
                     <mixed_ipad>true</mixed_ipad>
-                    <mixed_iphone>false</mixed_iphone>
+                    <mixed_iphone>true</mixed_iphone>
                     <rc_android>false</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>false</rc_blackberry>
-                    <rc_blackberry10>false</rc_blackberry10>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>false</rc_iphone>
                     <rc_j2me>false</rc_j2me>
@@ -1469,23 +1469,23 @@
                     <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
-                    <tc_spabb>false</tc_spabb>
-                    <tc_spabb_nth>false</tc_spabb_nth>
+                    <tc_spabb>true</tc_spabb>
+                    <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
-                    <tc_spawindows>false</tc_spawindows>
-                    <tc_spawinphone8>false</tc_spawinphone8>
-                    <tc_xhtml>false</tc_xhtml>
+                    <tc_spawindows>true</tc_spawindows>
+                    <tc_spawinphone8>true</tc_spawinphone8>
+                    <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
                     <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
                     <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                    <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
-                    <tc_xhtml_js>false</tc_xhtml_js>
-                    <wrapper_android>false</wrapper_android>
+                    <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
+                    <tc_xhtml_js>true</tc_xhtml_js>
+                    <wrapper_android>true</wrapper_android>
                     <wrapper_android_tab>true</wrapper_android_tab>
-                    <wrapper_bb>false</wrapper_bb>
+                    <wrapper_bb>true</wrapper_bb>
                     <wrapper_ipad>true</wrapper_ipad>
-                    <wrapper_iphone>false</wrapper_iphone>
+                    <wrapper_iphone>true</wrapper_iphone>
                 </rendererData>
                 <margins>
                     <android>
@@ -2021,7 +2021,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Static HTML</SText>
+                <SText>Dynamic URL</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>
@@ -2069,7 +2069,7 @@
             <winphone8_position>1</winphone8_position>
         </children>
         <children xsi:type="kBrowser">
-            <ID>brwStaticHTML</ID>
+            <ID>brwDynamicURL</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -2081,19 +2081,19 @@
                 <verticalAlignment>0</verticalAlignment>
                 <verticalFill>1</verticalFill>
             </gridMetaData>
-            <widgetID>p2kwiet1179897252993</widgetID>
+            <widgetID>p2kwiet118010578959733</widgetID>
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>34</y>
+                <y>94</y>
             </location>
             <size>
                 <width>448</width>
-                <height>450</height>
+                <height>355</height>
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>93</height>
+                <height>79</height>
             </sizePercent>
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -2144,18 +2144,18 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>1</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -2200,10 +2200,10 @@
                 </ipad>
                 <ipad_override>false</ipad_override>
                 <iphonerc>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>15</top>
-                    <bottom>12</bottom>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </iphonerc>
                 <iphonerc_override>true</iphonerc_override>
@@ -2242,13 +2242,13 @@
                 <spatablet_android_override>false</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </symbian>
-                <symbian_override>true</symbian_override>
+                <symbian_override>false</symbian_override>
                 <tabRCAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -2289,114 +2289,114 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>12</left>
-                    <right>12</right>
-                    <top>15</top>
-                    <bottom>15</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>5</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </winmobile6x>
-                <winmobile6x_override>true</winmobile6x_override>
+                <winmobile6x_override>false</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvBB>
                 <xhtmlAdvBB_override>true</xhtmlAdvBB_override>
                 <spaAndroid>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>5</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaAndroid>
                 <spaAndroid_override>true</spaAndroid_override>
                 <spaBB>
-                    <left>4</left>
-                    <right>4</right>
-                    <top>4</top>
-                    <bottom>4</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>5</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBBNth>
                 <spaBBNth_override>true</spaBBNth_override>
                 <spaBB_override>true</spaBB_override>
                 <spaIphone>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>4</top>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>5</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>
                 <spaIphone_override>true</spaIphone_override>
                 <spaWindows>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaWindows>
                 <spaWindows_override>true</spaWindows_override>
                 <xhtmlAdvAndroid>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvAndroid>
                 <xhtmlAdvAndroid_override>true</xhtmlAdvAndroid_override>
                 <xhtmlAdvIphone>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvIphone>
                 <xhtmlAdvIphone_override>true</xhtmlAdvIphone_override>
                 <xhtmlAdvNth>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvNth>
                 <xhtmlAdvNth_override>true</xhtmlAdvNth_override>
                 <xhtmlAdvPalm>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvPalm>
                 <xhtmlAdvPalm_override>true</xhtmlAdvPalm_override>
                 <xhtmlJS>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>5</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlJS>
                 <xhtmlJS_override>true</xhtmlJS_override>
@@ -2434,7 +2434,7 @@
                 </bb10>
                 <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
-                <default_override>false</default_override>
+                <default_override>true</default_override>
                 <defaults>
                     <left>0</left>
                     <right>0</right>
@@ -2457,7 +2457,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </desktop_web>
-                <desktop_web_override>true</desktop_web_override>
+                <desktop_web_override>false</desktop_web_override>
                 <ipad>
                     <left>0</left>
                     <right>0</right>
@@ -2471,9 +2471,9 @@
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </iphonerc>
-                <iphonerc_override>true</iphonerc_override>
+                <iphonerc_override>false</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -2509,13 +2509,13 @@
                 <spatablet_android_override>false</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </symbian>
-                <symbian_override>true</symbian_override>
+                <symbian_override>false</symbian_override>
                 <tabRCAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -2556,21 +2556,21 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </winmobile6x>
-                <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>true</winmobile_override>
+                <winmobile6x_override>false</winmobile6x_override>
+                <winmobile_override>false</winmobile_override>
                 <winphone8>
                     <left>0</left>
                     <right>0</right>
@@ -2586,7 +2586,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvBB>
-                <xhtmlAdvBB_override>true</xhtmlAdvBB_override>
+                <xhtmlAdvBB_override>false</xhtmlAdvBB_override>
                 <spaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -2594,7 +2594,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaAndroid>
-                <spaAndroid_override>true</spaAndroid_override>
+                <spaAndroid_override>false</spaAndroid_override>
                 <spaBB>
                     <left>0</left>
                     <right>0</right>
@@ -2609,8 +2609,8 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBBNth>
-                <spaBBNth_override>true</spaBBNth_override>
-                <spaBB_override>true</spaBB_override>
+                <spaBBNth_override>false</spaBBNth_override>
+                <spaBB_override>false</spaBB_override>
                 <spaIphone>
                     <left>0</left>
                     <right>0</right>
@@ -2618,7 +2618,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>
-                <spaIphone_override>true</spaIphone_override>
+                <spaIphone_override>false</spaIphone_override>
                 <spaWindows>
                     <left>0</left>
                     <right>0</right>
@@ -2626,7 +2626,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaWindows>
-                <spaWindows_override>true</spaWindows_override>
+                <spaWindows_override>false</spaWindows_override>
                 <xhtmlAdvAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -2634,7 +2634,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvAndroid>
-                <xhtmlAdvAndroid_override>true</xhtmlAdvAndroid_override>
+                <xhtmlAdvAndroid_override>false</xhtmlAdvAndroid_override>
                 <xhtmlAdvIphone>
                     <left>0</left>
                     <right>0</right>
@@ -2642,7 +2642,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvIphone>
-                <xhtmlAdvIphone_override>true</xhtmlAdvIphone_override>
+                <xhtmlAdvIphone_override>false</xhtmlAdvIphone_override>
                 <xhtmlAdvNth>
                     <left>0</left>
                     <right>0</right>
@@ -2650,7 +2650,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvNth>
-                <xhtmlAdvNth_override>true</xhtmlAdvNth_override>
+                <xhtmlAdvNth_override>false</xhtmlAdvNth_override>
                 <xhtmlAdvPalm>
                     <left>0</left>
                     <right>0</right>
@@ -2658,7 +2658,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvPalm>
-                <xhtmlAdvPalm_override>true</xhtmlAdvPalm_override>
+                <xhtmlAdvPalm_override>false</xhtmlAdvPalm_override>
                 <xhtmlJS>
                     <left>0</left>
                     <right>0</right>
@@ -2666,7 +2666,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlJS>
-                <xhtmlJS_override>true</xhtmlJS_override>
+                <xhtmlJS_override>false</xhtmlJS_override>
                 <xhtmlNormal>
                     <left>0</left>
                     <right>0</right>
@@ -2683,22 +2683,10 @@
             </overridePerferred>
             <contentAlign>4</contentAlign>
             <browseData>
-                <htmlcontent>&lt;html&gt; 
-
-&lt;body&gt;
-&lt;div style="background-color:white"&gt;
-&lt;h3 style="text-align:left"&gt;
-This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.
-
-This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.
-
-This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.
-&lt;/h3&gt;&lt;/div&gt;
-&lt;/body&gt; 
-&lt;/html&gt;</htmlcontent>
+                <htmlcontent></htmlcontent>
                 <methodID>get</methodID>
-                <type>3</type>
-                <url></url>
+                <type>4</type>
+                <url>http://www.kony.com/</url>
             </browseData>
             <tooltip></tooltip>
             <detection>true</detection>
@@ -2720,8 +2708,6 @@ This area will contain everything that will be visible through a web browser, su
             <win6xMobile_screenlevelWidget>false</win6xMobile_screenlevelWidget>
             <overrideProperties>KBrowser.iphone_screenLevelWidget</overrideProperties>
             <overrideProperties>KBrowser.screenLevelWidget</overrideProperties>
-            <overrideProperties>KBrowser.symbian_screenlevel_widget</overrideProperties>
-            <overrideProperties>KBrowser.win6x_screenlevel_widget</overrideProperties>
             <overrideProperties>KBrowser.win_screenlevel_widget</overrideProperties>
             <overrideProperties>KBrowser.winphone8_screenlevelwidget</overrideProperties>
         </children>
@@ -2733,7 +2719,7 @@ This area will contain everything that will be visible through a web browser, su
         <winphone8_outtransitionmode>Default</winphone8_outtransitionmode>
         <winphone8_intransitionspeed>0</winphone8_intransitionspeed>
         <winphone8_outtransitionspeed>0</winphone8_outtransitionspeed>
-        <winphone8_orientation>2</winphone8_orientation>
+        <winphone8_orientation>0</winphone8_orientation>
         <winphone8_onorientation_root>
             <evtSequence>
                 <enabled>true</enabled>
@@ -2794,7 +2780,7 @@ This area will contain everything that will be visible through a web browser, su
             <referenceWidth>0</referenceWidth>
             <sizeMode>constants.GRID_TYPE_FIXED</sizeMode>
         </gridviewConfig>
-        <widgetID>p2kwiet1179897252595</widgetID>
+        <widgetID>p2kwiet118010578959721</widgetID>
         <createdGAVersion>5.0.0</createdGAVersion>
         <location>
             <x>-1</x>
@@ -2884,7 +2870,7 @@ This area will contain everything that will be visible through a web browser, su
             </bb10>
             <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
-            <default_override>false</default_override>
+            <default_override>true</default_override>
             <defaults>
                 <left>0</left>
                 <right>0</right>
@@ -3151,7 +3137,7 @@ This area will contain everything that will be visible through a web browser, su
             </bb10>
             <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
-            <default_override>false</default_override>
+            <default_override>true</default_override>
             <defaults>
                 <left>0</left>
                 <right>0</right>

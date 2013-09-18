@@ -28,10 +28,10 @@
     <attributes name="ACCESS_COARSE_LOCATION" value="false"/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
-    <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="true"/>
+    <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="false"/>
     <attributes name="removeprintstatements" value="false"/>
     <attributes name="appversionkey" value="1.0.0"/>
-    <attributes name="WP8_ID_CAP_GAMERSERVICES" value="true"/>
+    <attributes name="WP8_ID_CAP_GAMERSERVICES" value="false"/>
     <attributes name="BIND_WALLPAPER" value="false"/>
     <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
     <attributes name="SET_ANIMATION_SCALE" value="false"/>
@@ -101,7 +101,7 @@
     <attributes name="WP8_ID_CAP_IDENTITY_DEVICE" value="true"/>
     <attributes name="INSTALL_LOCATION_PROVIDER" value="false"/>
     <attributes name="fbxfolderpathkey" value=""/>
-    <attributes name="ID_RESOLUTION_HD720P" value="false"/>
+    <attributes name="ID_RESOLUTION_HD720P" value="true"/>
     <attributes name="READ_CONTACTS" value="false"/>
     <attributes name="wintileforegroundnamekey" value="Light"/>
     <attributes name="ID_CAP_GAMERSERVICES" value="true"/>
@@ -166,7 +166,7 @@
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="apptitle" value=""/>
     <attributes name="apppackagekey" value="com.kony.Browser"/>
-    <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="true"/>
+    <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="false"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="read_device_identifying_information" value="false"/>
     <attributes name="RECEIVE_MMS" value="false"/>
@@ -205,7 +205,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.19.QA_v201309102135"/>
+    <attributes name="currentgaversion" value="5.5.20.QA_v201309131735"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -294,7 +294,7 @@
     <attributes name="SET_TIME_ZONE" value="false"/>
     <attributes name="tcbjs480basefontsize" value="10"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PLAYBACK" value="true"/>
-    <attributes name="ID_RESOLUTION_WVGA" value="false"/>
+    <attributes name="ID_RESOLUTION_WVGA" value="true"/>
     <attributes name="desktopwebbasefontsize" value="16"/>
     <attributes name="tcbjs320basefontsize" value="10"/>
     <attributes name="CLEAR_APP_CACHE" value="false"/>
