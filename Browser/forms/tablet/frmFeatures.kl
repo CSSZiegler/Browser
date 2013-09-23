@@ -646,9 +646,9 @@
         <winphone8_backButton>false</winphone8_backButton>
         <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
-            <backButtonSkin>Skin Defaults</backButtonSkin>
+            <backButtonSkin>sknBtnNormalSampleApp</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
@@ -4904,6 +4904,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -5637,6 +5654,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -5715,6 +5749,7 @@
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipad_Orientation</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

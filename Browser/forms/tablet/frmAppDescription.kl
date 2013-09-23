@@ -646,9 +646,9 @@
         <winphone8_backButton>false</winphone8_backButton>
         <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
-            <backButtonSkin>Skin Defaults</backButtonSkin>
+            <backButtonSkin>sknBtnNormalSampleApp</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
@@ -2672,6 +2672,7 @@
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -3380,9 +3381,9 @@
                             <desktop_kiosk_channel>true</desktop_kiosk_channel>
                             <desktop_web_channel>true</desktop_web_channel>
                             <mixed_android>true</mixed_android>
-                            <mixed_android_tab>true</mixed_android_tab>
+                            <mixed_android_tab>false</mixed_android_tab>
                             <mixed_bb>true</mixed_bb>
-                            <mixed_ipad>true</mixed_ipad>
+                            <mixed_ipad>false</mixed_ipad>
                             <mixed_iphone>true</mixed_iphone>
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
@@ -3393,7 +3394,7 @@
                             <rc_j2me>true</rc_j2me>
                             <rc_palm>true</rc_palm>
                             <rc_symbian>true</rc_symbian>
-                            <rc_windows8>true</rc_windows8>
+                            <rc_windows8>false</rc_windows8>
                             <rc_winmobile>true</rc_winmobile>
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
@@ -3975,6 +3976,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -4648,7 +4650,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>Showing Static HTML Content</SText>
+                        <SText>- Showing Static HTML Content</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>
@@ -4664,6 +4666,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -5381,9 +5384,9 @@
                             <desktop_kiosk_channel>true</desktop_kiosk_channel>
                             <desktop_web_channel>true</desktop_web_channel>
                             <mixed_android>true</mixed_android>
-                            <mixed_android_tab>true</mixed_android_tab>
+                            <mixed_android_tab>false</mixed_android_tab>
                             <mixed_bb>true</mixed_bb>
-                            <mixed_ipad>true</mixed_ipad>
+                            <mixed_ipad>false</mixed_ipad>
                             <mixed_iphone>true</mixed_iphone>
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
@@ -5394,7 +5397,7 @@
                             <rc_j2me>true</rc_j2me>
                             <rc_palm>true</rc_palm>
                             <rc_symbian>true</rc_symbian>
-                            <rc_windows8>true</rc_windows8>
+                            <rc_windows8>false</rc_windows8>
                             <rc_winmobile>true</rc_winmobile>
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
@@ -5976,6 +5979,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -6649,7 +6653,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>Showing Dynamic HTML Content</SText>
+                        <SText>- Showing Dynamic HTML Content</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>
@@ -6665,6 +6669,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -7382,9 +7387,9 @@
                             <desktop_kiosk_channel>true</desktop_kiosk_channel>
                             <desktop_web_channel>true</desktop_web_channel>
                             <mixed_android>true</mixed_android>
-                            <mixed_android_tab>true</mixed_android_tab>
+                            <mixed_android_tab>false</mixed_android_tab>
                             <mixed_bb>true</mixed_bb>
-                            <mixed_ipad>true</mixed_ipad>
+                            <mixed_ipad>false</mixed_ipad>
                             <mixed_iphone>true</mixed_iphone>
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
@@ -7395,7 +7400,7 @@
                             <rc_j2me>true</rc_j2me>
                             <rc_palm>true</rc_palm>
                             <rc_symbian>true</rc_symbian>
-                            <rc_windows8>true</rc_windows8>
+                            <rc_windows8>false</rc_windows8>
                             <rc_winmobile>true</rc_winmobile>
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
@@ -7977,6 +7982,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -8650,7 +8656,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>Inline Browsing</SText>
+                        <SText>- Inline Browsing</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>
@@ -8666,6 +8672,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -9383,9 +9390,9 @@
                             <desktop_kiosk_channel>true</desktop_kiosk_channel>
                             <desktop_web_channel>true</desktop_web_channel>
                             <mixed_android>true</mixed_android>
-                            <mixed_android_tab>true</mixed_android_tab>
+                            <mixed_android_tab>false</mixed_android_tab>
                             <mixed_bb>true</mixed_bb>
-                            <mixed_ipad>true</mixed_ipad>
+                            <mixed_ipad>false</mixed_ipad>
                             <mixed_iphone>true</mixed_iphone>
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
@@ -9396,7 +9403,7 @@
                             <rc_j2me>true</rc_j2me>
                             <rc_palm>true</rc_palm>
                             <rc_symbian>true</rc_symbian>
-                            <rc_windows8>true</rc_windows8>
+                            <rc_windows8>false</rc_windows8>
                             <rc_winmobile>true</rc_winmobile>
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
@@ -9978,6 +9985,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -10651,7 +10659,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>Enabling Features like Telephone Number Detection, Zoom and Screen Level Rendering</SText>
+                        <SText>- Enabling Features like Telephone Number Detection, Zoom and Screen Level Rendering</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>
@@ -10667,6 +10675,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -11380,6 +11389,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -11644,7 +11654,7 @@
                     <left>1</left>
                     <right>1</right>
                     <top>1</top>
-                    <bottom>1</bottom>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -11914,7 +11924,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
-                <windows8_override>false</windows8_override>
+                <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -12052,6 +12062,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -12075,6 +12086,7 @@
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

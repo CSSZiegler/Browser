@@ -646,9 +646,9 @@
         <winphone8_backButton>false</winphone8_backButton>
         <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
-            <backButtonSkin>Skin Defaults</backButtonSkin>
+            <backButtonSkin>sknBtnNormalSampleApp</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
@@ -979,8 +979,8 @@
                 <windows8>
                     <left>10</left>
                     <right>10</right>
-                    <top>37</top>
-                    <bottom>10</bottom>
+                    <top>0</top>
+                    <bottom>2</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -1375,7 +1375,7 @@
             <direction>0</direction>
             <usePercent>true</usePercent>
             <orientation>constants.BOX_LAYOUT_HORIZONTAL</orientation>
-            <position>0</position>
+            <position>1</position>
             <widgetLayoutDirection>BOX_LAYOUT_ALIGN_FROM_LEFT</widgetLayoutDirection>
             <overridePerferred>
                 <width>true</width>
@@ -4215,7 +4215,7 @@
             <detection>true</detection>
             <enable_zoom>false</enable_zoom>
             <_screenLevelWidget>true</_screenLevelWidget>
-            <screenlevelWidget>false</screenlevelWidget>
+            <screenlevelWidget>true</screenlevelWidget>
             <enableZoom>false</enableZoom>
             <detectTelNumber>true</detectTelNumber>
             <phone_detection>true</phone_detection>
@@ -4226,12 +4226,14 @@
             <symbian_enable_zoom>true</symbian_enable_zoom>
             <symbian_screenlevelWidget>true</symbian_screenlevelWidget>
             <android_screenLevelWidget>false</android_screenLevelWidget>
-            <winMobile_screenlevelWidget>false</winMobile_screenlevelWidget>
+            <winMobile_screenlevelWidget>true</winMobile_screenlevelWidget>
             <winphone8_screenlevelwidget>false</winphone8_screenlevelwidget>
             <win6xMobile_screenlevelWidget>false</win6xMobile_screenlevelWidget>
+            <overrideProperties>KBrowser.win_screenlevel_widget</overrideProperties>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

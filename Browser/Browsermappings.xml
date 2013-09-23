@@ -4,7 +4,6 @@
     <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmBrwStaticHTML" type="form"/>
-    <container displayname="Form" id="frmInLineBrowser" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmBrwStaticHTML" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
@@ -16,6 +15,7 @@
     <container displayname="Form" id="frmBrwDynamicURL" type="form"/>
     <container displayname="Form" id="frmBrwStaticHTML" type="form"/>
     <container displayname="Form" id="frmFeatures" type="form"/>
+    <container displayname="Form" id="frmInLineBrowser" type="form"/>
     <globalsequences/>
     <skins/>
 </application>

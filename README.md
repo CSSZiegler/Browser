@@ -19,5 +19,6 @@ This Application will showcase the features of Browser widget.
 **Tablet** 
  * Android
  * iPad
+ * Windows 8
  * SPA iPad
  * SPA Android

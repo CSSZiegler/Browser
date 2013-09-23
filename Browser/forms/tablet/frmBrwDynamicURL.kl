@@ -53,7 +53,7 @@
         </location>
         <size>
             <width>450</width>
-            <height>450</height>
+            <height>408</height>
         </size>
         <sizePercent>
             <width>100</width>
@@ -646,9 +646,9 @@
         <winphone8_backButton>false</winphone8_backButton>
         <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
-            <backButtonSkin>Skin Defaults</backButtonSkin>
+            <backButtonSkin>sknBtnNormalSampleApp</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
@@ -789,7 +789,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>11</height>
+                <height>12</height>
             </sizePercent>
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -1899,7 +1899,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>3</left>
                         <right>3</right>
@@ -2037,6 +2037,7 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -2084,7 +2085,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>94</y>
+                <y>52</y>
             </location>
             <size>
                 <width>448</width>
@@ -2092,7 +2093,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>79</height>
+                <height>88</height>
             </sizePercent>
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -2282,7 +2283,7 @@
                 <windows8>
                     <left>0</left>
                     <right>0</right>
-                    <top>12</top>
+                    <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
@@ -2685,7 +2686,7 @@
             <detection>true</detection>
             <enable_zoom>false</enable_zoom>
             <_screenLevelWidget>true</_screenLevelWidget>
-            <screenlevelWidget>false</screenlevelWidget>
+            <screenlevelWidget>true</screenlevelWidget>
             <enableZoom>false</enableZoom>
             <detectTelNumber>false</detectTelNumber>
             <phone_detection>true</phone_detection>
@@ -2696,12 +2697,14 @@
             <symbian_enable_zoom>true</symbian_enable_zoom>
             <symbian_screenlevelWidget>true</symbian_screenlevelWidget>
             <android_screenLevelWidget>false</android_screenLevelWidget>
-            <winMobile_screenlevelWidget>false</winMobile_screenlevelWidget>
+            <winMobile_screenlevelWidget>true</winMobile_screenlevelWidget>
             <winphone8_screenlevelwidget>false</winphone8_screenlevelwidget>
             <win6xMobile_screenlevelWidget>false</win6xMobile_screenlevelWidget>
+            <overrideProperties>KBrowser.win_screenlevel_widget</overrideProperties>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>
