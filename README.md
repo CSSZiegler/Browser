@@ -8,7 +8,7 @@ This sample app will showcase browser widget usage.
 This Application will showcase the features of Browser widget.
 
 # Supported platforms:
-**Mobile**
+***Mobile***
  * Android
  * iPhone
  * Windows 7.5
@@ -16,7 +16,7 @@ This Application will showcase the features of Browser widget.
  * SPA Android
  * SPA iPhone
  
-**Tablet** 
+***Tablet***
  * Android
  * iPad
  * Windows 8

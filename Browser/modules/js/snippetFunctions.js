@@ -31,7 +31,7 @@ function navigateToFrmBrwDynamicURL(eventObj){
 	switch(eventObj.text){
 	case "Browser with Dynamic Content":
 			frmBrwDynamicURL.destroy();
-			frmBrwDynamicURL.title= "Dynamic ";
+			frmBrwDynamicURL.title= "Dynamic";
 		  	frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = false;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = false;
@@ -40,6 +40,7 @@ function navigateToFrmBrwDynamicURL(eventObj){
 	case "Detect Telephone Number":
 			frmBrwDynamicURL.destroy();
 			frmBrwDynamicURL.title= "Detect Telephone Number";
+			frmBrwDynamicURL.lblHeader.text= "Detect Telephone Number";
 			frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/contact',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = true;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = false;
@@ -48,6 +49,7 @@ function navigateToFrmBrwDynamicURL(eventObj){
 	case "Enable Zoom Property of Browser":
 			frmBrwDynamicURL.destroy();
 			frmBrwDynamicURL.title= "Zoom Enabled";
+			frmBrwDynamicURL.lblHeader.text= "Zoom Enabled";
 			frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/apps',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = false;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = true;
