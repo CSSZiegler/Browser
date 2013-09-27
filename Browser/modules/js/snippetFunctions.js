@@ -110,23 +110,23 @@ function navigateToFrmInLineBrowser()
 function onSuccessCallback(){
 	if(frmInLineBrowser.brwInline.canGoBack()!=true)
 	{
-	alert("b success if");
+	//alert("b success if");
 		frmInLineBrowser.btnInlineBack.skin="sknBtnFocusSampleApp";
 	}
 	else
 	{
-	alert("b success else");
+	//alert("b success else");
 		frmInLineBrowser.btnInlineBack.skin="sknBtnNormalSampleApp";
 		}
 		
 	if(frmInLineBrowser.brwInline.canGoForward()!=true)
 	{
-	alert("b success if");
+	//alert("b success if");
 		frmInLineBrowser.btnInlineForward.skin="sknBtnFocusSampleApp";
 	}
 	else
 	{
-	alert("b success else");
+	//alert("b success else");
 		frmInLineBrowser.btnInlineForward.skin="sknBtnNormalSampleApp";	
 	}
 }

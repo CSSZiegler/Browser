@@ -2879,11 +2879,11 @@
                         <tabRCAndroid>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>6</left>
                             <right>0</right>
@@ -3144,7 +3144,7 @@
                         </symbian>
                         <symbian_override>false</symbian_override>
                         <tabRCAndroid>
-                            <left>1</left>
+                            <left>0</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -3535,9 +3535,9 @@
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>4</left>
+                                <left>0</left>
                                 <right>0</right>
-                                <top>4</top>
+                                <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
@@ -3805,7 +3805,7 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>2</bottom>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -4226,7 +4226,7 @@
                             <tabRCAndroid>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>4</top>
+                                <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
@@ -4494,7 +4494,7 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>2</bottom>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -4797,7 +4797,7 @@
                         </bb10>
                         <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
-                        <default_override>false</default_override>
+                        <default_override>true</default_override>
                         <defaults>
                             <left>0</left>
                             <right>0</right>
@@ -4882,11 +4882,11 @@
                         <tabRCAndroid>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>6</left>
                             <right>0</right>
@@ -5147,7 +5147,7 @@
                         </symbian>
                         <symbian_override>false</symbian_override>
                         <tabRCAndroid>
-                            <left>1</left>
+                            <left>0</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -5538,9 +5538,9 @@
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>4</left>
+                                <left>0</left>
                                 <right>0</right>
-                                <top>2</top>
+                                <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
@@ -5808,7 +5808,7 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>2</bottom>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -6229,7 +6229,7 @@
                             <tabRCAndroid>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>2</top>
+                                <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
@@ -6497,7 +6497,7 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>2</bottom>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -6885,11 +6885,11 @@
                         <tabRCAndroid>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>6</left>
                             <right>0</right>
@@ -7150,7 +7150,7 @@
                         </symbian>
                         <symbian_override>false</symbian_override>
                         <tabRCAndroid>
-                            <left>1</left>
+                            <left>0</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -7541,10 +7541,10 @@
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>4</left>
+                                <left>0</left>
                                 <right>0</right>
-                                <top>4</top>
-                                <bottom>2</bottom>
+                                <top>0</top>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -7811,7 +7811,7 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>2</bottom>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -8232,7 +8232,7 @@
                             <tabRCAndroid>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>2</top>
+                                <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
@@ -8500,7 +8500,7 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>2</bottom>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -8888,11 +8888,11 @@
                         <tabRCAndroid>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>6</left>
                             <right>0</right>
@@ -9153,7 +9153,7 @@
                         </symbian>
                         <symbian_override>false</symbian_override>
                         <tabRCAndroid>
-                            <left>1</left>
+                            <left>0</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -9544,10 +9544,10 @@
                             </symbian>
                             <symbian_override>true</symbian_override>
                             <tabRCAndroid>
-                                <left>4</left>
+                                <left>0</left>
                                 <right>0</right>
-                                <top>4</top>
-                                <bottom>4</bottom>
+                                <top>0</top>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -10235,7 +10235,7 @@
                             <tabRCAndroid>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>2</top>
+                                <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
@@ -10503,7 +10503,7 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <top>0</top>
-                                <bottom>2</bottom>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabRCAndroid>
                             <tablet_rc_android_override>true</tablet_rc_android_override>
