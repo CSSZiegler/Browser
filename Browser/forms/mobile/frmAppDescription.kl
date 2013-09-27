@@ -8221,10 +8221,10 @@
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
-                <tc_spaandroid>false</tc_spaandroid>
+                <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>false</tc_spabb>
                 <tc_spabb_nth>false</tc_spabb_nth>
-                <tc_spaiphone>false</tc_spaiphone>
+                <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>false</tc_spawindows>
                 <tc_spawinphone8>false</tc_spawinphone8>
                 <tc_xhtml>false</tc_xhtml>

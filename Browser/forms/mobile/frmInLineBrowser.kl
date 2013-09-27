@@ -4904,11 +4904,11 @@
                     <y>1</y>
                 </location>
                 <size>
-                    <width>423</width>
+                    <width>446</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>95</width>
+                    <width>100</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>sknLblSpaTitleSampleApp</skinId>

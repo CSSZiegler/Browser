@@ -445,7 +445,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -3582,9 +3582,9 @@
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
-                <tabspa_ipad>false</tabspa_ipad>
-                <tabspa_windows>true</tabspa_windows>
-                <tabspaspa_android>false</tabspaspa_android>
+                <tabspa_ipad>true</tabspa_ipad>
+                <tabspa_windows>false</tabspa_windows>
+                <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>

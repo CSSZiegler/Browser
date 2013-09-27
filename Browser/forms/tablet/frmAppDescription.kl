@@ -6701,7 +6701,7 @@
                     <winphone8_position>0</winphone8_position>
                 </children>
                 <children xsi:type="khBox">
-                    <ID>hbox118192291040297</ID>
+                    <ID>hbxDescription3</ID>
                     <gridMetaData>
                         <colSpan>1</colSpan>
                         <column>0</column>
@@ -8704,7 +8704,7 @@
                     <winphone8_position>0</winphone8_position>
                 </children>
                 <children xsi:type="khBox">
-                    <ID>hbox118192291040315</ID>
+                    <ID>hbxDescription4</ID>
                     <gridMetaData>
                         <colSpan>1</colSpan>
                         <column>0</column>
@@ -8739,9 +8739,9 @@
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>
                         <mixed_android>true</mixed_android>
-                        <mixed_android_tab>true</mixed_android_tab>
+                        <mixed_android_tab>false</mixed_android_tab>
                         <mixed_bb>true</mixed_bb>
-                        <mixed_ipad>true</mixed_ipad>
+                        <mixed_ipad>false</mixed_ipad>
                         <mixed_iphone>true</mixed_iphone>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
@@ -8756,9 +8756,9 @@
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
-                        <tabspa_ipad>true</tabspa_ipad>
-                        <tabspa_windows>true</tabspa_windows>
-                        <tabspaspa_android>true</tabspaspa_android>
+                        <tabspa_ipad>false</tabspa_ipad>
+                        <tabspa_windows>false</tabspa_windows>
+                        <tabspaspa_android>false</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>
                         <tc_spabb_nth>true</tc_spabb_nth>
