@@ -2828,7 +2828,7 @@
                 <bb10displaytext>true</bb10displaytext>
             </children>
             <children xsi:type="kButton">
-                <ID>button117802041940901</ID>
+                <ID>btnInlineReload</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
