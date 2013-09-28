@@ -4175,10 +4175,18 @@
                                 <key>js</key>
                                 <value>onSuccessCallback</value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>None</value>
+                            </entry>
                         </functionNameMap>
                         <paramDataMap>
                             <entry>
                                 <key>js</key>
+                                <value/>
+                            </entry>
+                            <entry>
+                                <key>lua</key>
                                 <value/>
                             </entry>
                         </paramDataMap>
@@ -4200,10 +4208,18 @@
                                 <key>js</key>
                                 <value>onFailureCallback</value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>None</value>
+                            </entry>
                         </functionNameMap>
                         <paramDataMap>
                             <entry>
                                 <key>js</key>
+                                <value/>
+                            </entry>
+                            <entry>
+                                <key>lua</key>
                                 <value/>
                             </entry>
                         </paramDataMap>

@@ -2,8 +2,8 @@
 <application id="Browser" name="Browser">
     <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
-    <container displayname="Form" id="frmBrwStaticHTML" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
+    <container displayname="Form" id="frmBrwStaticHTML" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>
     <container displayname="Form" id="frmBrwStaticHTML" type="form"/>
     <container displayname="Form" id="frmAppDescription" type="form"/>

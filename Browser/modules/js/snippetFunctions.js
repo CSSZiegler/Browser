@@ -52,9 +52,6 @@ function navigateToFrmBrwDynamicURL(eventObj){
 			frmBrwDynamicURL.lblHeader.text= "Detect Telephone Number";
 			}
 			
-			
-			//frmBrwDynamicURL.title= "Detect Telephone Number";
-			//frmBrwDynamicURL.lblHeader.text= "Detect Telephone Number";
 			frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/contact',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = true;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = false;
@@ -74,9 +71,6 @@ function navigateToFrmBrwDynamicURL(eventObj){
 			alert("windows");
 			frmBrwDynamicURL.lblHeader.text= "Enable Zoom";
 			}
-			
-			//frmBrwDynamicURL.title= "Zoom Enabled";
-			//frmBrwDynamicURL.lblHeader.text= "Zoom Enabled";
 			frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/apps',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = false;
 			frmBrwDynamicURL.brwDynamicURL.enableZoom      = true;
@@ -108,27 +102,24 @@ function navigateToFrmInLineBrowser()
 ****************************************************************************************/
 
 function onSuccessCallback(){
-	if(frmInLineBrowser.brwInline.canGoBack()!=true)
+    if(frmInLineBrowser.brwInline.canGoBack()!=true)
 	{
-	//alert("b success if");
-		frmInLineBrowser.btnInlineBack.skin="sknBtnFocusSampleApp";
+			frmInLineBrowser.btnInlineBack.skin="sknBtnFocusSampleApp";
 	}
 	else
 	{
-	//alert("b success else");
 		frmInLineBrowser.btnInlineBack.skin="sknBtnNormalSampleApp";
-		}
+	}
 		
 	if(frmInLineBrowser.brwInline.canGoForward()!=true)
 	{
-	//alert("b success if");
-		frmInLineBrowser.btnInlineForward.skin="sknBtnFocusSampleApp";
+			frmInLineBrowser.btnInlineForward.skin="sknBtnFocusSampleApp";
 	}
 	else
 	{
-	//alert("b success else");
-		frmInLineBrowser.btnInlineForward.skin="sknBtnNormalSampleApp";	
+			frmInLineBrowser.btnInlineForward.skin="sknBtnNormalSampleApp";	
 	}
+	
 }
 
 /****************************************************************************************
@@ -140,24 +131,20 @@ function onSuccessCallback(){
 function onFailureCallback(){
 	if(frmInLineBrowser.brwInline.canGoBack()!=true)
 	{
-	    
 		frmInLineBrowser.btnInlineBack.skin="sknBtnFocusSampleApp";
 	}
 	else
 	{
-	    
-		frmInLineBrowser.btnInlineBack.skin="sknBtnNormalSampleApp";
+	 	frmInLineBrowser.btnInlineBack.skin="sknBtnNormalSampleApp";
 	}
 	
 	if(frmInLineBrowser.brwInline.canGoForward()!=true)
 	{
-	        
-			frmInLineBrowser.btnInlineForward.skin="sknBtnFocusSampleApp";
+	 	frmInLineBrowser.btnInlineForward.skin="sknBtnFocusSampleApp";
 	}
 	else
 	{
-	        
-		frmInLineBrowser.btnInlineForward.skin="sknBtnNormalSampleApp";	
+	 	frmInLineBrowser.btnInlineForward.skin="sknBtnNormalSampleApp";	
 	}
 }
 
@@ -169,11 +156,10 @@ function onFailureCallback(){
 */
 
 function goBack(){
-	if(frmInLineBrowser.brwInline.canGoBack()==true)
+	if(frmInLineBrowser.brwInline.canGoBack()==true){
 		frmInLineBrowser.brwInline.goBack();
-		
+		}
 }
-
 /****************************************************************************************
 *	Name    : goForward
 *	Author  : Kony
@@ -182,8 +168,9 @@ function goBack(){
 */
 
 function goForward(){
-	if(frmInLineBrowser.brwInline.canGoForward()==true)
+	if(frmInLineBrowser.brwInline.canGoForward()==true){
 		frmInLineBrowser.brwInline.goForward();
+		}
 }
 
 /****************************************************************************************
