@@ -40,15 +40,16 @@ function navigateToFrmBrwDynamicURL(eventObj){
 	case "Detect Telephone Number":
 			frmBrwDynamicURL.destroy();
 			
-			if(kony.os.deviceInfo().name = "iPhone")
-			frmBrwDynamicURL.title= "Detect Telephone Number";
-			else if(kony.os.deviceInfo().name = "thinclient" || kony.os.deviceInfo().name == "Android"){
-			alert("SPA + Android");
+			if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
+			{
+			 			frmBrwDynamicURL.title= "Detect Telephone Number";
+			}
+			else if(kony.os.deviceInfo().name == "android" )
+			{
 			frmBrwDynamicURL.lblDynamicURL.text= "Detect Telephone Number";
 			}
-			else if(kony.os.deviceInfo().name = "WindowsPhone")
+			else if(kony.os.deviceInfo().name == "WindowsPhone")
 			{
-			alert("windows");
 			frmBrwDynamicURL.lblHeader.text= "Detect Telephone Number";
 			}
 			
@@ -60,16 +61,17 @@ function navigateToFrmBrwDynamicURL(eventObj){
 	case "Enable Zoom Property of Browser":
 			frmBrwDynamicURL.destroy();
 			
-			if(kony.os.deviceInfo().name = "iPhone")
-			frmBrwDynamicURL.title= "Enable Zoom";
-			else if(kony.os.deviceInfo().name = "thinclient" || kony.os.deviceInfo().name == "Android"){
-			alert("SPA + Android");
-			frmBrwDynamicURL.lblDynamicURL.text= "Enable Zoom";
-			}
-			else if(kony.os.deviceInfo().name = "WindowsPhone")
+			if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
 			{
-			alert("windows");
-			frmBrwDynamicURL.lblHeader.text= "Enable Zoom";
+						frmBrwDynamicURL.title= "Enable Zoom";
+			}
+			else if(kony.os.deviceInfo().name == "android" )
+			{         
+			            frmBrwDynamicURL.lblDynamicURL.text= "Enable Zoom";
+			}
+			else if(kony.os.deviceInfo().name == "WindowsPhone")
+			{
+			    		frmBrwDynamicURL.lblHeader.text= "Enable Zoom";
 			}
 			frmBrwDynamicURL.brwDynamicURL.requestURLConfig = {URL:'http://www.kony.com/apps',requestMethod:constants.BROWSER_REQUEST_METHOD_GET};
 			frmBrwDynamicURL.brwDynamicURL.detectTelNumber = false;

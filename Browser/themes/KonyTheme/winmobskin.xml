@@ -5739,7 +5739,7 @@
         <att name="Name" value="sknLblSpaTitleSampleApp" type="String"/>
         <att name="WidgetType" value="Label" type="String"/>
         <att name="Bg_type" value="3" type="int"/>
-        <att name="Background_color" value="255,255,255" type="RGB"/>
+        <att name="Background_color" value="0,153,220" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>
